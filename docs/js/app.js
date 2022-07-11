@@ -9,6 +9,7 @@ try {
       metacoinConfig.fullHost,
       metacoinConfig.privateKey
   )
+  tronWeb.setHeader({ "TRON-PRO-API-KEY": '42530830-83f7-4236-8093-30aa835d9517' });
 } catch (err) {
   alert('The app looks not configured. Please run `npm run migrate`')
 }
