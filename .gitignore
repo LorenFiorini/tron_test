@@ -1,5 +1,5 @@
 
-src/js/metacoin-config.js
+docs/js/metacoin-config.js
 node_modules
 build
 .env

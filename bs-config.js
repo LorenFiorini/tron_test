@@ -1,5 +1,5 @@
 module.exports = {
   "port": 3000,
-    "files": ["./src/index.html"],
-    "server": { "baseDir": "./src" }
+    "files": ["./docs/index.html"],
+    "server": { "baseDir": "./docs" }
 }
