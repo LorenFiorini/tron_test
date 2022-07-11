@@ -14,4 +14,4 @@ const metacoinConfig = {
   fullHost: tronboxJs.fullHost
 }
 
-fs.writeFileSync(path.resolve(__dirname, '../src/js/metacoin-config.js'),`var metacoinConfig = ${JSON.stringify(metacoinConfig, null, 2)}`)
+fs.writeFileSync(path.resolve(__dirname, '../docs/js/metacoin-config.js'),`var metacoinConfig = ${JSON.stringify(metacoinConfig, null, 2)}`)

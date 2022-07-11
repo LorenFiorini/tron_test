@@ -1,4 +1,4 @@
-var contractAddress = 'TCyKydExSAApBFLYVyWs7G5Ye3z9F4AJpG';
+var contractAddress;
 var tronWeb;
 
 try {
